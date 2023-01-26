@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Indie+Flower&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/waltograph" type="text/css" />
+
+    <!-- Bootstraps  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    <!-- Icons  -->
+    <script src="https://kit.fontawesome.com/8db94a295e.js" crossorigin="anonymous"></script>
+
+    <!-- CSS Style  -->
+    <link rel="stylesheet" href="asset/style.css">
+
+
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Navbar Section  -->
+     <nav class="navbar">
+        <div class="left">
+            <a class="logo" href="#">ViWa </a>
+        </div>
+
+        <!-- Cheeseburger Button for table and mobile  -->
+        <div class="right"> 
+            <input type="checkbox" id="check">
+            <label for="check" class="checkBtn">
+                <i class="fa fa-bars"></i>
+            </label>
+            <ul class="list">
+				<li><a class="home" href="#">Home</a></li>
+                <li><a href="#first-level">Matrimonio</a></li>
+                <li><a href="#">Viaggio</a></li>
+                <li><a href="#">Foto</a></li>
+                <li><a href="#">Contatti</a></li>
+            </ul>
+        </div>
+    </nav> 
+
+    <!-- <div class="container"> -->
+    <div class="container-fluid">
+    <div class="row">
+         <div class="col-lg-6">                <!-- To make responsive the picture for table and mobile -->
+            <figure>
+           <img class="main-photo" src="asset/img/Prato.jpg" width="350px">
+           <figcaption>Virginia & Walter <br>
+                    08 Aprile 2023</figcaption>
+            </figure>
+         </div>
+         <div class="suca col-lg-6">           <!-- To make responsive the picture for table and mobile -->
+            <p class="container-text">
+                Ebbene si, abbiamo deciso di fare il grande passo e cercare di realizzare la
+               favola Disney che abbiamo sempre sognato. Ma, soprattutto, non vediamo l’ora di festeggiare con le
+               nostre
+               famiglie e tutti i nostri amici questa giornata speciale.
+               <br>
+               <br>
+               In attesa dell’arrivo del grande giorno, abbiamo creato (con l’aiuto di un fantastico web developer)
+               questo sito dove troverete tutte le informazioni di cui avete bisogno.
+               <br>
+               <br>
+               Speriamo che sia una giornata divertente e piena di emozioni anche per voi, per questo ci auguriamo
+               possiate esserci a festeggiare con noi ! Fateci sapere al più presto...
+               <br>
+               <br>
+           </p>
+         </div>
+    </div>
+    </div>
+
+
+    <div id="carousel" class="carousel slide">
+        <!-- Indicators to let you know in which photo you are  -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          
+        <div class="carousel-inner" data-ride="false">
+            <div class="carousel-item active">
+                <img src="asset/img/Ballo.jpg"  width="80%" height="450px" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="asset/img/foto-salto.png" class="img-salto" width="80%" height="450px"  alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="asset/img/Toraggio.jpg"  width="80%" height="450px"  alt="">
+            </div>
+        </div>
+
+        <!-- Buttons to change the slides  -->
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+    </div>
+
+
+    
+</body>
+</html>
