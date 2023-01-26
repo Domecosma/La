@@ -244,3 +244,12 @@ figcaption {
     }
 
 }
+
+/********** Only on Mobile  *************/
+
+@media screen and (max-width:480px) {
+    .main-photo {
+        width: 250px;
+        height: 400px;
+    }
+}
