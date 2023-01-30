@@ -27,7 +27,7 @@
 <body>
 
     <!-- Navbar Section  -->
-     <nav class="navbar">
+     <nav class="navbar" id="navbar">
         <div class="left">
             <a class="logo" href="#">ViWa </a>
         </div>
@@ -40,10 +40,9 @@
             </label>
             <ul class="list">
 				<li><a class="home" href="#">Home</a></li>
-                <li><a href="dove-e-quando.html">Matrimonio</a></li>
-                <li><a href="#">Viaggio</a></li>
-                <li><a href="#">Foto</a></li>
-                <li><a href="#">Contatti</a></li>
+                <li><a href="#carousel-container">Matrimonio</a></li>
+                <li><a href="#last-container">Foto</a></li>
+                <li><a href="#contacts">Contatti</a></li>
             </ul>
         </div>
     </nav> 
@@ -88,7 +87,7 @@
     <div id="carousel" class="carousel slide">
         
 
-        <div class="carousel-inner" data-ride="false">
+        <div class="carousel-inner" id="carousel-container" data-ride="false">
             <div class="carousel-item active">
                 <img src="asset/img/Untitled-1.png" class="where-and-when-photo" width="80%" height="480px" alt="where and when">
                 <a class="text-carousel" href="#">Dove e Quando</a>
@@ -128,7 +127,7 @@
 
 <!-- Container with ancors to download the app to share the photos  -->
 
-    <div class="last-container">
+    <div class="last-container" id="last-container">
         <div class="row">
             <img class="col-lg-6 photographer" src="asset/img/Fotografo.jpg" alt="fotografo" width="40%">
             <p class="col-lg-6 text-last-container">Non vogliamo perderci neanche un attimo di questa splendida giornata
@@ -146,7 +145,7 @@
 
 
 
-    <div class="footer">
+    <div class="footer" id="contacts">
         <ul class="list-footer">
             <li><a class="list-item" href=""><i class="fa-brands fa-instagram"></i> Instagram</a></li>
             <li><a class="list-item" href=""><i class="fa-solid fa-envelope"></i> Email</a></li>
@@ -155,6 +154,24 @@
         <p class="copyright"><i class="fa-regular fa-copyright"></i> Domenico Cosma</p>
 
     </div>
+
+
+
+
+
+    <!-- Make the navbar disappear when the user scrolls down and appear when scrolls up -->
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+          } else {
+            document.getElementById("navbar").style.top = "-100px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+        </script>
 
     
 </body>
