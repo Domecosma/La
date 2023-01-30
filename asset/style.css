@@ -217,6 +217,7 @@ button {
         top: 5rem;
         left: 100%;
         transition: all 1s;
+	z-index: 100;
     }
 
     #check {
