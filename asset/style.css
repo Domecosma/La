@@ -7,6 +7,7 @@
 body {
     font-family: 'Montserrat';
     overflow-x: hidden;
+    background-color: #DF8825;
 }
 
 
@@ -25,6 +26,13 @@ img {
 	width: 100%;
 	padding: 15px 30px;
     background-color: #DF8825;
+    z-index: 100;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    transition: top 0.3s;
 }
 
 .logo {
@@ -85,6 +93,8 @@ img {
     padding: 3% 12%;
     line-height: 1.5;
     text-align: center;
+    margin-top: 80px;
+    z-index: -100;
 }
 
 .main-photo {
@@ -125,8 +135,10 @@ figcaption {
 /* Carousel  */
 
 .carousel {
-    margin: 150px 0 200px;
+    margin: 150px 0 0;
     text-align: center;
+    background-color: #fff;
+    padding: 100px 0;
 }
 
 /* object-position of the pictures top because in the normal way cuts the heads   */
@@ -176,6 +188,7 @@ button {
 .last-container {
     padding: 7% 10%;
     justify-content: end;
+    background-color: #fff;
 }
 
 .text-last-container {
