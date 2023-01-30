@@ -89,7 +89,7 @@ img {
 
 .main-photo {
     border-radius: 5px;
-    
+    filter: drop-shadow(4px 4px 8px #999999);
 }
 
 .container-text {
@@ -120,54 +120,54 @@ figcaption {
     background-color: #fff;
 }
 
-/* Prova 2  */
-
-/* .container-text {
-    color: #fff;
-    font-size: 1.5rem;
-    font-family: 'Indie Flower', cursive;
-    text-decoration: underline;
-}
-
-figure {
-    text-align: center;
-}
-
-figcaption {
-    color: #fff;
-    font-family: 'Indie Flower', cursive;
-    font-weight: bold;
-    margin-top: 10px;
-    font-size: 1.5rem;
-    text-decoration: underline;
-    line-height: 1.5;
-}
-
-.row {
-    border: 2px solid #fff;
-    padding: 25px 10px 0;
-    border-radius: 5px;
-    background-color: #DF8825;
-} */
 
 
 /* Carousel  */
 
 .carousel {
-    margin: 50px 0 200px;
+    margin: 150px 0 200px;
     text-align: center;
 }
 
 
 
-.img-salto {
+.where-and-when-photo {
     object-position: top;
+}
+
+.wedding-gift {
+    object-position:40%;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     background-color: #DF8825;
 }
+
+.text-carousel {
+    font-size: 1.10rem;
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    background-color: #DF8825;
+    margin: 50px auto 0 auto;
+    width: 350px;
+    padding: 25px 40px;
+    border-radius: 5px;
+    filter: drop-shadow(4px 4px 8px #999999);
+}
+
+.text-carousel:active {
+    transform: scale(0.9);
+}
+
+button {
+    margin-bottom: 80px;
+}
+
+
+
+
 
 
 
@@ -243,9 +243,12 @@ figcaption {
         width: 100%;
     }
 
+    
+
 }
 
-/********** Only on Mobile  *************/
+
+/* Only on Mobile  */
 
 @media screen and (max-width:480px) {
     .main-photo {
