@@ -22,30 +22,61 @@
     <link rel="stylesheet" href="asset/style.css">
 
 
+  
+
+
     <title>Document</title>
 </head>
 <body>
 
+
     <!-- Navbar Section  -->
-     <nav class="navbar" id="navbar">
-        <div class="left">
+
+
+    <nav>
+        <div class="logo">
             <a class="logo" href="#">ViWa </a>
         </div>
-
-        <!-- Cheeseburger Button for table and mobile  -->
-        <div class="right"> 
-            <input type="checkbox" id="check">
-            <label for="check" class="checkBtn">
-                <i class="fa fa-bars"></i>
-            </label>
-            <ul class="list">
-				<li><a class="home" href="#">Home</a></li>
-                <li><a href="#carousel-container">Matrimonio</a></li>
-                <li><a href="#last-container">Foto</a></li>
-                <li><a href="#contacts">Contatti</a></li>
-            </ul>
+        <ul class="nav-links">
+            <li>
+                <a href="#carousel">Matrimonio</a>
+            </li>
+            <li>
+                <a href="#">Foto</a>
+            </li>
+            <li>
+                <a href="#">Contatti</a>
+            </li>
+        </ul>
+        <div class="burger">
+            <i class="fa-solid fa-bars"></i>
         </div>
-    </nav> 
+    </nav>
+
+    
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+     
 
 
 
@@ -157,22 +188,8 @@
 
 
 
-
-
-    <!-- Make the navbar disappear when the user scrolls down and appear when scrolls up -->
-    <script>
-        var prevScrollpos = window.pageYOffset;
-        window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-          if (prevScrollpos > currentScrollPos) {
-            document.getElementById("navbar").style.top = "0";
-          } else {
-            document.getElementById("navbar").style.top = "-100px";
-          }
-          prevScrollpos = currentScrollPos;
-        }
-        </script>
-
+      <!-- Javascript  -->
+      <script src="index.js"></script>
     
 </body>
 </html>
