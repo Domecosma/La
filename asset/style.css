@@ -233,3 +233,56 @@ button {
 .copyright {
     color: #fff;
 }
+
+
+
+/*************  tablet and mobile  ***************/
+
+@media screen and (max-width:768px) {
+	
+    /* Navbar  */
+
+   .main-photo {
+    width: 300px;
+   }
+
+
+
+
+    .container-fluid {
+        text-align: center;
+    }
+
+    /* Carousel  */
+
+    .carousel-item img {
+        width: 85%;
+        height: 80%;
+    }
+
+    
+
+}
+
+
+/* Only on Mobile  */
+
+@media screen and (max-width:480px) {
+    .main-photo {
+        width: 250px;
+        height: 400px;
+    }
+
+    
+    /* To Center the photo for mobile  */
+
+    .wedding-gift {
+        object-position:-100px 55%;
+    }
+
+
+    .text-last-container {
+        font-size: 0.8rem;
+        margin-top: 20px;
+    }
+}
