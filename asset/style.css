@@ -296,6 +296,7 @@ button {
 
 /* Only on Mobile  */
 
+
 @media screen and (max-width:480px) {
     .main-photo {
         width: 250px;
@@ -306,7 +307,7 @@ button {
     /* To Center the photo for mobile  */
 
     .wedding-gift {
-        object-position:-100px 55%;
+        object-position:0px 40%;
     }
 
 
