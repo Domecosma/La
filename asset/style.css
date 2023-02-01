@@ -146,7 +146,7 @@ figcaption {
     color: #fff;
     background-color: #DF8825;
     margin: 30px auto 0 auto;
-    width: 300px;
+    width: 350px;
     padding: 25px 40px;
     border-radius: 5px;
     filter: drop-shadow(4px 4px 8px #999999);
@@ -289,13 +289,14 @@ button {
         height: 250px;
     ]
 
+
+   
     
 
 }
 
 
 /* Only on Mobile  */
-
 
 @media screen and (max-width:480px) {
     .main-photo {
