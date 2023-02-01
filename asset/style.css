@@ -128,9 +128,15 @@ figcaption {
     object-position:0 35%;
 }
 
-.carousel-control-prev-icon,
+.carousel-control-prev-icon {
+    background-color: #DF8825;
+    margin-right: 25px;
+}
+
+
 .carousel-control-next-icon {
     background-color: #DF8825;
+    margin-left: 25px;
 }
 
 .text-carousel {
@@ -140,7 +146,7 @@ figcaption {
     color: #fff;
     background-color: #DF8825;
     margin: 30px auto 0 auto;
-    width: 350px;
+    width: 300px;
     padding: 25px 40px;
     border-radius: 5px;
     filter: drop-shadow(4px 4px 8px #999999);
@@ -226,85 +232,4 @@ button {
 
 .copyright {
     color: #fff;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*************  tablet and mobile  ***************/
-
-@media screen and (max-width:768px) {
-	
-    /* Navbar  */
-
-   .main-photo {
-    width: 300px;
-   }
-
-
-
-
-    .container-fluid {
-        text-align: center;
-    }
-
-    /* Carousel  */
-
-    .carousel-item img {
-        width: 100%;
-    }
-
-    
-
-}
-
-
-/* Only on Mobile  */
-
-@media screen and (max-width:480px) {
-    .main-photo {
-        width: 250px;
-        height: 400px;
-    }
-
-    
-    /* To Center the photo for mobile  */
-
-    .wedding-gift {
-        object-position:-100px 55%;
-    }
-
-
-    .text-last-container {
-        font-size: 0.8rem;
-        margin-top: 20px;
-    }
 }
