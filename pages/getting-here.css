@@ -30,11 +30,10 @@ h2 {
 
 
 .container-text {
-    color: #fff;
+    color: #DF8825;
     font-size: 1.5rem;
     font-family: 'Indie Flower', cursive;
     margin: 0 auto;
-    filter: brightness(100%);
 }
 
 
@@ -43,11 +42,7 @@ h2 {
     border: 2px solid #DF8825;
     padding: 25px 10px 0;
     border-radius: 5px;
-    background-image: url("../asset/img/japan2.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
+    background-color: #fff;
 }
 
 
@@ -67,14 +62,6 @@ h2 {
     border: 2px solid #fff;
 }
 
-span {
-    font-family: 'Montserrat';
-}
-
-
-
-
-/************** Mobile Version  ***************/
 
 @media screen and (max-width:768px) {
 
@@ -83,10 +70,6 @@ span {
         position:static;
         margin: 0 auto 50px auto;
         width: 100%;
-    }
-
-    .main {
-        background-position:70%;
     }
 
 
