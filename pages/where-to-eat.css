@@ -108,10 +108,18 @@ span {
 @media screen and (max-width:768px) {
 
 
+    .main {
+        margin-bottom: 50px;
+    }
+
     .back-home {
         position:static;
         margin: 0 auto 50px auto;
         width: 100%;
+    }
+
+    .footer {
+        margin-top: 50px;
     }
 
 
