@@ -59,9 +59,9 @@ span {
     position: fixed;
     bottom: 10px;
     right: 20px;
-    color: #fff;
+    color: #DF8825;
     font-size: 1.75rem;
-    padding: 12px;
+    padding: 8px;
     border-radius: 10px;
     text-decoration: none;
     font-family: 'Waltograph';
@@ -69,6 +69,7 @@ span {
     text-align: center;
     width: 12%;
     border: 2px solid #fff;
+    background-color: #fff;
 }
 
 
@@ -119,6 +120,7 @@ span {
 
     .footer {
         margin-top: 50px;
+        padding: 2% 5% 0%;
     }
 
 
