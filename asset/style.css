@@ -55,6 +55,21 @@ img {
 
 
 
+/* Countdown  */
+
+.countdown {
+    display: flex;
+    display: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+h3 {
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
 
 
 
