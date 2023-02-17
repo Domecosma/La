@@ -317,6 +317,11 @@ button {
 
     
     /* To Center the photo for mobile  */
+	
+	
+    h3 {
+        font-size: 1rem;
+    }
 
     .wedding-gift {
         object-position:0px 40%;
